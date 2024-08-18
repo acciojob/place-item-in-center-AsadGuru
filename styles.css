@@ -1,2 +1,21 @@
 
 /* Your CSS Code here. */
+.holder {
+    display: flex; /* Enable Flexbox layout */
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    width: 100vw; /* Full viewport width */
+    height: 100vh; /* Full viewport height */
+    margin: 0; /* Remove default margin */
+}
+
+/* Style for item-1 */
+.item-1 {
+    width: 100px; /* Width of item-1 */
+    height: 100px; /* Height of item-1 */
+    background-color: red; /* Background color of item-1 */
+    color: white; /* Text color for visibility */
+    display: flex; /* Enable Flexbox layout within item-1 */
+    align-items: center; /* Center text vertically within item-1 */
+    justify-content: center; /* Center text horizontally within item-1 */
+}
